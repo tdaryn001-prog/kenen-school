@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кенен Әзірбаев атындағы орта мектебі</title>
+    <meta name="description" content="Кенен Әзірбаев атындағы орта мектебінің ресми сайты. Жаңалықтар, сабақ кестесі, мұғалімдер және оқушылар туралы ақпарат.">
+    <!-- Tailwind CSS CDN for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- Header / Navigation -->
+    <header class="bg-indigo-900 text-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl">🏫</span>
+                <div>
+                    <h1 class="text-lg font-bold">Кенен Әзірбаев атындағы мектеп</h1>
+                    <p class="text-xs text-indigo-200">Ресми білім беру порталы</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-indigo-300 transition">Мектеп туралы</a>
+                <a href="#schedule" class="hover:text-indigo-300 transition">Кестелер</a>
+                <a href="#news" class="hover:text-indigo-300 transition">Жаңалықтар</a>
+                <a href="#contact" class="hover:text-indigo-300 transition">Байланыс</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-indigo-800 to-blue-700 text-white py-20 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Өнер мен білім – өмір шырағы</h2>
+            <p class="text-lg md:text-xl text-indigo-100 mb-8">Заманауи білім беру мен сапалы тәрбие ордасына қош келдіңіздер!</p>
+            <a href="#contact" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-8 py-3 rounded-full shadow-lg transition duration-300">Байланысқа шығу</a>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-12 space-y-16">
+
+        <!-- About Section -->
+        <section id="about" class="bg-white rounded-2xl shadow-sm p-8 border border-slate-100">
+            <h3 class="text-2xl font-bold text-indigo-900 mb-6 flex items-center gap-2">
+                <span>📖</span> Мектеп тарихы мен миссиясы
+            </h3>
+            <div class="grid md:grid-cols-2 gap-8 text-slate-600 leading-relaxed">
+                <div>
+                    <p class="mb-4">Кенен Әзірбаев атындағы орта мектеп – өңіріміздегі озық білім беру орталықтарының бірі. Мектеп қабырғасында білікті ұстаздар еңбек етіп, оқушылардың республикалық, халықаралық олимпиадалар мен байқауларда топ жаруына жағдай жасалған.</p>
+                </div>
+                <div>
+                    <p class="p-4 bg-indigo-50 rounded-xl border-l-4 border-indigo-600 text-indigo-900 font-medium">
+                        <strong>Миссиямыз:</strong> Әрбір оқушының жеке қабілетін ашып, заманауи технологиялармен қаруланған бәсекеге қабілетті тұлға тәрбиелеу.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Schedule & Info Section -->
+        <section id="schedule" class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-2xl shadow-sm p-8 border border-slate-100">
+                <h3 class="text-xl font-bold text-indigo-900 mb-4 flex items-center gap-2">
+                    <span>📅</span> Сабақ кестесі және үйірмелер
+                </h3>
+                <p class="text-slate-600 mb-4">Оқушыларға арналған апталық сабақ кестесі, қосымша пәндік үйірмелер мен спорт секцияларының кестесі осында жүктеледі.</p>
+                <div class="p-3 bg-slate-50 rounded-lg text-sm text-slate-500 border border-dashed border-slate-300 text-center">
+                    Кесте файлы PDF форматында қолжетімді
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-sm p-8 border border-slate-100">
+                <h3 class="text-xl font-bold text-indigo-900 mb-4 flex items-center gap-2">
+                    <span>👨‍👩‍👧‍👦</span> Ата-аналар мен оқушыларға
+                </h3>
+                <p class="text-slate-600 mb-4">Мектеп формасына қойылатын талаптар, қауіпсіздік ережелері, қабылдау сағаттары және нормативтік құжаттармен осы бөлімнен таныса аласыз.</p>
+                <ul class="list-disc list-inside text-sm text-slate-600 space-y-1">
+                    <li>Мектеп жарғысы мен ережелері</li>
+                    <li>Ата-аналар комитетінің хабарламалары</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="bg-white rounded-2xl shadow-sm p-8 border border-slate-100">
+            <h3 class="text-2xl font-bold text-indigo-900 mb-6 flex items-center gap-2">
+                <span>📰</span> Мектеп жаңалықтары
+            </h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                    <span class="text-xs text-indigo-600 font-semibold">17 қараша, 2026</span>
+                    <h4 class="font-bold text-slate-800 mt-1 mb-2">«Алтын күз» мерекелік сайысы</h4>
+                    <p class="text-sm text-slate-600">Мектебімізде оқушылардың қатысуымен дәстүрлі күзгі жәрмеңке мен байқау өтті.</p>
+                </div>
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                    <span class="text-xs text-indigo-600 font-semibold">10 қараша, 2026</span>
+                    <h4 class="font-bold text-slate-800 mt-1 mb-2">Пәндік олимпиада қорытындысы</h4>
+                    <p class="text-sm text-slate-600">Мектепішілік олимпиадада жүлделі орын алған оқушылар қалалық кезеңге жолдама алды.</p>
+                </div>
+                <div class="bg-slate-50 p-5 rounded-xl border border-slate-200">
+                    <span class="text-xs text-indigo-600 font-semibold">1 қараша, 2026</span>
+                    <h4 class="font-bold text-slate-800 mt-1 mb-2">Ата-аналар жиналысы</h4>
+                    <p class="text-sm text-slate-600">І тоқсан қорытындысы бойынша жалпымектептік онлайн ата-аналар жиналысы ұйымдастырылды.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-indigo-900 text-white rounded-2xl shadow-sm p-8">
+            <h3 class="text-2xl font-bold mb-6 flex items-center gap-2">
+                <span>📍</span> Бізбен байланысу
+            </h3>
+            <div class="grid md:grid-cols-2 gap-8 text-indigo-100">
+                <div class="space-y-3">
+                    <p><strong>Мекенжайымыз:</strong> Қазақстан Республикасы</p>
+                    <p><strong>Электронды пошта:</strong> kenen-school@mail.kz</p>
+                    <p><strong>Телефон нөмірі:</strong> +7 (727) XXX-XX-XX</p>
+                </div>
+                <div>
+                    <p class="text-sm text-indigo-200 leading-relaxed">
+                        Біздің мектепке қатысты сұрақтарыңыз болса, көрсетілген байланыс нөмірлері арқылы хабарласа аласыздар немесе мектепке келіп кездесуіңізге болады.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm mt-20">
+        <p>&copy; 2026 Кенен Әзірбаев атындағы орта мектебі. Барлық құқықтар қорғалған.</p>
+    </footer>
+
+</body>
+</html>
